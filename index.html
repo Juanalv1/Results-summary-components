@@ -5,43 +5,76 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
+  <main>
+    <section class="results--container">
+      <article class="results--card">
+        <h4 class="results--title">Your Result</h4>
+          <div class="results--circle">
+            <h1 class="circle--bignumber"> 76</p>
+            <p class="circle--number">of 100</p>
+          </div>
+          <div class="score--container">
+            <h3 class="score--title">Great</h1>
+            <p class="score-info"> You scored higher than 65% of the people who have taken these tests.</p>
+          </div>
+      </article>
+    </section>
+    <section class="summary-card--container">
+      <h3>Summary</h3>
+      <article class="summary--card">
+        <div class="card--categorie">
+        <span class="thunder-icon"></span>
+        <span class="red">Reaction</span>
+        </div>
+          <div class="card--score">
+            <span>80</span>
+            <span>/ 100</span>
+          </div>
+      </article>
 
-  Your Result
-  76
-  of 100
+      <article class="summary--card">
+        <div class="card--categorie">
+        <span class="brain-icon"></span>
+        <span class="yellow">Memory</span>
+        </div>
+          <div class="card--score">
+            <span>92</span>
+            <span>/ 100</span>
+          </div>
+      </article>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+      <article class="summary--card">
+        <div class="card--categorie">
+        <span class="message-icon"></span>
+        <span class="green">Verbal</span>
+        </div>
+          <div class="card--score">
+            <span>61</span>
+            <span>/ 100</span>
+          </div>
+      </article>
 
-  Reaction
-  80 / 100
+      <article class="summary--card">
+        <div class="card--categorie">
+        <span class="eye-icon"></span>
+        <span class="blue">Visual</span>
+        </div>
+          <div class="card--score">
+            <span>72</span>
+            <span>/ 100</span>
+          </div>
+      </article>
+      <button>Continue</button>
+    </section>
+    
+  </main>
 
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
